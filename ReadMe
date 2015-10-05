@@ -1,0 +1,22 @@
+Author: Francisco Da Costa
+Student ID: 5026516
+
+Lab Assignment 3: Dictionary utilizing 2D arrays.
+
+To Build:
+	$ make
+
+To Run:
+	$ ./LabAss3 << textfile.txt
+
+
+
+This program creates a dictionary of up to 50 words, each being of a maximum length of 20 character.
+It checks for duplicates, incrementing the freqency of each word, and ignores case.
+The dictionary produced will display the total number of words in the dictionary,
+each word stored, and each word's respective frequency. After which the program will
+terminate.
+
+If the number of words inputed exceeds 50 the program will terminate and dump its contents. 
+If a word exceeds the character length it will be indicated and excluded from the dictionary.
+
